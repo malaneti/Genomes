@@ -19,7 +19,7 @@ It then directs users to a bubble map, showing them visually which health risks 
 ## Usage
 
 Landingpage:
-![screen shot 2016-06-06 at 20 10 44](https://cloud.githubusercontent.com/assets/10008938/15844915/2478c052-2c23-11e6-8069-5ed2edce3c05.png)
+![screen shot 2016-06-06 at 20 10 44](![screen shot 2016-06-06 at 20 10 44](screenshot1.png))
 Login:
 ![screen shot 2016-06-06 at 20 11 19](https://cloud.githubusercontent.com/assets/10008938/15844918/2796150a-2c23-11e6-98ab-8042cbf48ea1.png)
 Authentication:
