@@ -10,8 +10,7 @@ It then directs users to a bubble map, showing them visually which health risks 
   - [Example](#example)
   - [Installation](#installation)
   - [Technologies](#technologies)
-  - [Architecture](#architecture)
-  - [API Endpoints](#api)
+
  
  
 
