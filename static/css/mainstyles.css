@@ -1,0 +1,399 @@
+body {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+
+.wholePage {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.BodyContainer {
+
+    width: 893px;
+    height: 500px;
+   
+
+}
+
+svg#vis{
+
+  width: 893px;
+  height: 500px;
+}
+
+#openg {
+  width: 879.54px;
+  height: 800px;
+  height: 500%;
+}
+
+.titleIntro {
+  text-align: center;
+}
+
+.aboutinfo {
+  display: flex;
+  justify-content: center;
+}
+
+.sideNavContainer {
+  align-self: flex-start;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  max-height: 100%;
+  margin-top: 10%;
+  margin-left: 20px;
+  float: left;
+  justify-content: center;
+}
+
+.side-nav-button {
+  cursor: pointer;
+  display: flex;
+}
+
+.dnahelixcontainer {
+  max-width: 100%;
+  display: inline-block;
+  padding-left: 20%;
+}
+
+.dna-info {
+  position: relative;
+  float: center;
+  height: 30%;
+  width: 30%;
+ 
+  
+  border-radius: 5px;
+  border: 1px;
+  bottom:500px;
+  right:0px;
+}
+
+.dna-info2 {
+  position: relative;
+  float: center;
+  height: 30%;
+  width: 30%;
+ 
+  
+/*  border-radius: 5px;
+  border: 1px;*/
+  bottom:400px;
+  left:800px;
+}
+
+/*#helix-path-2 {
+  border: 1px;
+  bottom:500px;
+}*/
+
+
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color:#2c3e50;
+  height: 1px;
+}
+
+#helix-path-title {
+  padding-top: 5px;
+  padding-bottom: 1px;
+}
+
+#helix-path-5 {
+  padding-top: 5px;
+}
+
+
+
+.snp-information {
+  position: absolute;
+  width: 400px;
+  max-width: 90%;
+  max-height: 90%;
+  word-wrap: normal;
+  font-family: Courier;
+ /* -moz-box-shadow: 10px 10px 5px #888;
+  -webkit-box-shadow: 10px 10px 5px #888;
+  box-shadow: 10px 10px 5px #888;*/
+  background-color: #F5F8FA;
+  padding: 5px 10px 5px 15px;
+}
+
+#tooltip p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.md-warn md-raised md-button md-ink-ripple {
+  right: 0px;
+}
+
+.view-selection {
+  text-align: center;
+  right: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.helpbtn img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background-color: black;
+   color: #D0F8FF;
+}
+
+.copyright {
+  padding-left: 1%;
+  max-width: 100%;
+  width: 25%;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+}
+
+.footerLinks {
+  width: 11%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 1%;
+  padding-right: 1%;
+  float: right;
+}
+
+
+
+.aboutimages {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  margin-top: 10%;
+  margin-left: 35%;
+}
+
+.aboutpage {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.eachname {
+  font-size: 20px;
+  text-align: center;
+}
+
+.teammatePic {
+  max-width: 200px;
+  max-height: 400px;
+}
+
+.greetings {
+  padding-left: 10px;
+  font-size: 32px;
+  color: #D0F8FF;
+}
+
+.app-title {
+  font-family: monospace, sans-serif;
+  letter-spacing: 0.2em;
+  color: #D0F8FF;
+  text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+               0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+               0 0 40px #A5F1FF;
+}
+
+.title{
+  text-align: center;
+}
+
+.header-options {
+  float: right;
+  display: flex;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-text {
+  text-align: center;
+}
+
+.modal-title {
+  text-align: center;
+}
+
+svg#helix {
+  position: absolute;
+  margin-left: 30%;
+}
+
+svg.bubble{
+  position: absolute;
+  margin-left: 10%;
+}
+
+/*POOL PAGE*/
+.mapCanvas {
+  position: absolute;
+  margin-left: 12%;
+  padding-bottom: 5%;
+  width: 88%;
+  height: 100%;
+  max-width: 88%;
+  max-height: 88%;
+  background-color: #EEEEEE;
+}
+
+svg#mainCanvas {
+  position: absolute;
+  margin-left: 12%;
+  width: 88%;
+  height: 100%;
+  max-width: 88%;
+  max-height: 88%;
+}
+
+#map {
+  border: 1px solid #000;
+}
+
+.state {
+  fill: #EEE;
+  stroke: #DDD;
+}
+
+.point {
+  fill: #F00;
+  stroke: #f00;
+}
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+Status API Training Shop Blog About
+
+svg {
+  position: absolute;
+  margin-left: 10%;
+}
+
+svg.datamap {
+  position: absolute;
+  margin-top: -2%;
+}
+
+.node circle {
+  cursor: pointer;
+  stroke: #3182bd;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+  pointer-events: none;
+  text-anchor: middle;
+}
+
+line.link {
+  fill: none;
+  stroke: #9ecae1;
+  stroke-width: 1.5px;
+}
+
+.bubble {
+  margin-left: 5%;
+}
+
+svg#treeSVG{
+  position: absolute;
+  margin-left: 15%;
+}
+
+.treeBubbleText {
+  font-size: 1em;
+  font-family: 'Lato';
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.background-image {
+  background-color: #EEEEEE;
+  height: 100%;
+}
+
+h1 {
+  margin-top: 0px;
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 40px;
+}
