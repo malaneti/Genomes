@@ -18,16 +18,15 @@ It then directs users to a bubble map, showing them visually which health risks 
 ==========
 ## Usage
 
-Landingpage:
-![screen shot 2016-06-06 at 20 10 44](![screen shot 2016-06-06 at 20 10 44](screenshot1.png))
-Login:
-![screen shot 2016-06-06 at 20 11 19](https://cloud.githubusercontent.com/assets/10008938/15844918/2796150a-2c23-11e6-98ab-8042cbf48ea1.png)
-Authentication:
-![screen shot 2016-06-06 at 20 08 50](https://cloud.githubusercontent.com/assets/10008938/15844927/334263b8-2c23-11e6-94f4-d9a040efdfd1.png)
-Chromosomes:
-![screen shot 2016-06-06 at 20 10 18](https://cloud.githubusercontent.com/assets/10008938/15844922/2cdbb236-2c23-11e6-9f2d-4adf4d9b0f79.png)
-Bubble Map :
-![screen shot 2016-06-06 at 20 09 39](https://cloud.githubusercontent.com/assets/10008938/15844923/2f5013c2-2c23-11e6-8608-607eff0c4da8.png)
+<img width="1280" alt="screenshot1" src="https://cloud.githubusercontent.com/assets/17863675/16776714/84de5b82-481b-11e6-894b-3ab9012db72d.png">
+<img width="1279" alt="screen shot 2016-07-11 at 5 10 42 pm" src="https://cloud.githubusercontent.com/assets/17863675/16776765/bc86a292-481b-11e6-8d95-931352b2b72b.png">
+<img width="1280" alt="screen shot 2016-07-11 at 5 11 08 pm" src="https://cloud.githubusercontent.com/assets/17863675/16776771/bffef7d0-481b-11e6-8aba-8b832f775ee2.png">
+<img width="1280" alt="screen shot 2016-07-11 at 5 31 12 pm" src="https://cloud.githubusercontent.com/assets/17863675/16776729/998b1c5a-481b-11e6-8ad5-fab097f9d14c.png">
+<img width="1280" alt="screen shot 2016-07-11 at 5 31 21 pm" src="https://cloud.githubusercontent.com/assets/17863675/16777096/14a57074-481d-11e6-989f-c9cc084e3a79.png">
+<img width="1278" alt="screen shot 2016-07-12 at 10 49 41 am" src="https://cloud.githubusercontent.com/assets/17863675/16777487/9c8d198c-481e-11e6-87b6-1db447033711.png">
+<img width="1280" alt="screen shot 2016-07-12 at 10 50 38 am" src="https://cloud.githubusercontent.com/assets/17863675/16777497/a7231efa-481e-11e6-8bb5-e60e7f91f365.png">
+<img width="1280" alt="screen shot 2016-07-12 at 9 51 34 am" src="https://cloud.githubusercontent.com/assets/17863675/16776796/d5328586-481b-11e6-9316-a289b550fd54.png">
+
 
 ===============
 ## Installation
