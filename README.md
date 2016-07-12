@@ -30,7 +30,7 @@ It then directs users to a bubble map, showing them visually which health risks 
 
 ===============
 ## Installation
-Please install Python/Flask dependencies within the root directory
+Install Python/Flask dependencies within the root directory
 ```
 $ virtualenv .
 $ source bin/activate
@@ -47,7 +47,7 @@ $ bower install
 $ npm install
 ```
 
-You're good to go. Start the server with:
+Start server:
 ```
 $ npm start
 ```
@@ -67,13 +67,7 @@ Automation
 - Grunt
 
 ===============
-## Architecture
-### High Level Architecture
-![](http://i64.tinypic.com/2zpp661.png)
 
-### Database Schema
-Database in Postgres, using SQLAlchemy
-![](http://i68.tinypic.com/23i6plz.jpg)
 
 ======
 ## API
