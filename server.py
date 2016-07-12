@@ -16,17 +16,18 @@ import snps
 import random
 
 # Should Gather data from config.py
-# For now, putting these variables right here
-BASE_CLIENT_URL = 'http://localhost:1574'
-CLIENT_ID= 'd86cca67d021d18f7c9a2cee9f62dc46'
-CLIENT_SECRET='d22c2cec2e62bfdb23649736e7794365'
-REDIRECT_URI='http://localhost:1574/receive_code/'
-SECRET_KEY="topsecret"
+   
+BASE_CLIENT_URL = 'http://localhost:%s/'% PORT
+CLIENT_ID = app.config.get('CLIENT_ID')
+CLIENT_SECRET = app.config.get('CLIENT_SECRET')
+REDIRECT_URI = app.config.get('REDIRECT_URI')
+SECRET_KEY = app.config.get('SECRET_KEY')
 
 #Initialize Flask application, for both production and local environments 
 app = Flask(__name__)
 PORT = int(os.environ.get('PORT', 1574))
 is_prod = os.environ.get('IS_HEROKU', None)
+app.config.from_object('config')
 
 
 #all variables needed for 23AndMe API Call
@@ -211,4 +212,4 @@ if __name__ == '__main__':
   if is_prod:
       app.run(host='0.0.0.0', port=PORT)
   else:
-      app.run(debug=True, port=1574)
+      app.run(debug=True, port=PORT)

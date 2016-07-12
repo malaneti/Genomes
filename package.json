@@ -1,15 +1,13 @@
 {
-  "name": "Genomes",
+  "name": "Chroma",
   "version": "1.2.0",
-  "description": "Genome sequence visualizer",
   "scripts": {
     "postinstall": "./node_modules/bower/bin/bower install",
     "test": "karma start test/client/test.conf.js",
     "start": "python server.py"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/ThunderousFigs/Genomes.git"
+    "type": "git"
   },
   "engines": {
     "node": "0.10",
@@ -20,12 +18,7 @@
     "Flask",
     "PostgreSQL"
   ],
-  "author": [
-    "Gar Lee",
-    "Peter Lollo",
-    "Chris Bassano",
-    "Alex Anthony"
-  ],
+  
   "license": "MIT",
   "dependencies": {
     "bower": "^1.3.12"

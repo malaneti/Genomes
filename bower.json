@@ -1,20 +1,15 @@
 {
-  "name": "Genomes",
-  "description": "Genome sequence visualizer",
+  "name": "Chroma",
+  
   "main": "",
-  "authors": [
-    "Gar Lee",
-    "Peter Lollo",
-    "Chris Bassano",
-    "Alex Anthony"
-  ],
+
   "license": "MIT",
   "keywords": [
     "Python",
     "Flask",
     "PostgreSQL"
   ],
-  "homepage": "https://github.com/Peterlollo/Genomes",
+ 
   "moduleType": [],
   "ignore": [
     "**/.*",

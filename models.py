@@ -13,28 +13,29 @@ import os
 import psycopg2
 import urlparse
 #check to see if app is running in production or dev mode
-is_prod = os.environ.get('IS_HEROKU', None)
+# for now in dev mode 
+#is_prod = os.environ.get('IS_HEROKU', None)
 
-if is_prod:
-    urlparse.uses_netloc.append("postgres")
-    url = urlparse.urlparse(os.environ["DATABASE_URL"])
-    conn = psycopg2.connect(
-        database=url.path[1:],
-        user=url.username,
-        password=url.password,
-        host=url.hostname,
-        port=url.port
-    )
+#if is_prod:
+    #urlparse.uses_netloc.append("postgres")
+    #url = urlparse.urlparse(os.environ["DATABASE_URL"])
+    #conn = psycopg2.connect(
+       # database=url.path[1:],
+        #user=url.username,
+        #password=url.password,
+        #host=url.hostname,
+        #port=url.port
+    #)
     #Initialize postgreSQL genome database with appropriate database name, user, and password
     engine = create_engine('postgres://kcnqonukutmphz:GEyGV9nTZF0PJsxBN6yVxQSOMH@ec2-54-83-198-111.compute-1.amazonaws.com:5432/d6famvj5mosmlf', convert_unicode=True)
 else:
     engine = create_engine('postgres://localhost/mysite_development', convert_unicode=True)
-    try:
+     try:
         #connect to database if it exissts
-        connection = connect(dbname='mysite_development', user='tunnelsup', host='localhost', password='mala')
+        connection = connect(dbname='genome', user=app.config.get('DATABASE_USERNAME'), host='localhost', password=app.config.get('DATABASE_PASSWORD'))
     except:
         #create database if it does not already exist
-        connection = connect(user='tunnelsup', host='localhost', password='mala')
+        connection = connect(user=app.config.get('DATABASE_USERNAME'), host='localhost', password=app.config.get('DATABASE_PASSWORD'))
         connection.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
         cursor = connection.cursor()
         cursor.execute("CREATE DATABASE mysite_development")
