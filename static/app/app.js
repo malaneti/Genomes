@@ -21,11 +21,11 @@ var app = angular.module('chroma', [
       redirectTo: '/self'
     })
     .when('/signin', {
-      templateUrl: '/templates/index.html',
+      templateUrl: '/maintemplates/index.html',
       controller: 'AuthController'
     })
     .when('/signout', {
-      templateUrl: '/templates/landing.html',
+      templateUrl: '/maintemplates/main.html',
       authenticate: true
     })
     .when('/self', {
